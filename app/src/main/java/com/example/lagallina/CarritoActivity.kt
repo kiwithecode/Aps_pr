@@ -33,5 +33,5 @@ class CarritoActivity : AppCompatActivity() {
         }
     }
 
-    // Puedes añadir más lógica aquí si lo necesitas, como botones para finalizar la compra, etc.
+
 }

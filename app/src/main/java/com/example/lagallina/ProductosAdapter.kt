@@ -29,7 +29,7 @@ class ProductosAdapter(private val productos: List<Producto>) : RecyclerView.Ada
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val producto = productos[position]
 
-        // Aquí puedes usar Glide o Picasso para cargar la imagen si es una URL.
+
         Glide.with(holder.imageView.context)
             .load(producto.imagen)
             .into(holder.imageView)
@@ -38,7 +38,7 @@ class ProductosAdapter(private val productos: List<Producto>) : RecyclerView.Ada
         holder.productoCantidad.text = "${producto.cantidad}$"
         holder.addButton.setOnClickListener {
             Carrito.productosEnCarrito[producto] = Carrito.productosEnCarrito.getOrDefault(producto, 0) + 1
-            // Notifica al usuario (por ejemplo, con un Toast) que el producto ha sido agregado
+
             Toast.makeText(holder.itemView.context, "Producto agregado al carrito", Toast.LENGTH_SHORT).show()
         }
     }

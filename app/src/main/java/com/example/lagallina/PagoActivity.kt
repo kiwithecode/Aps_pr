@@ -28,10 +28,10 @@ class PagoActivity : AppCompatActivity() {
 
         val confirmarBoton: Button = findViewById(R.id.botonConfirmarPago)
         confirmarBoton.setOnClickListener {
-            // Aquí debes guardar la orden en la base de datos.
+
             Toast.makeText(this, "Pago confirmado!", Toast.LENGTH_SHORT).show()
 
-            // Redirige al usuario a SplashPagoActivity
+
             val intent = Intent(this, SplashPagoActivity::class.java)
             startActivity(intent)
             finish()  // Finaliza PagoActivity

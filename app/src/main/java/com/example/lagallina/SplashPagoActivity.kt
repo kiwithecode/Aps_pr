@@ -18,7 +18,7 @@ class SplashPagoActivity : AppCompatActivity() {
             override fun onAnimationStart(animation: Animator) {}
             override fun onAnimationEnd(animation: Animator) {
                 startActivity(Intent(this@SplashPagoActivity, MainActivity::class.java))
-                finish()  // Finaliza SplashPagoActivity para que no pueda volver a ella
+                finish()
             }
             override fun onAnimationCancel(animation: Animator) {}
             override fun onAnimationRepeat(animation: Animator) {}

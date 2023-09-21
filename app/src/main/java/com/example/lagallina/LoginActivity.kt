@@ -8,7 +8,7 @@ import android.widget.Toast
 
 class LoginActivity : AppCompatActivity() {
 
-    // Aquí definimos un usuario y contraseña de ejemplo
+
     private val correctUsername = "admin"
     private val correctPassword = "admin"
 

@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Suponiendo que tengas una función que te dé una lista de productos desde un JSON.
+
         val productos = obtenerProductosDeJson()
 
         productosAdapter = ProductosAdapter(productos)
