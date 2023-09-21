@@ -1,0 +1,15 @@
+[
+  {
+    "codigo": "001",
+    "nombre": "Pollo asado",
+    "cantidad": 10,
+    "imagen": "https://guiarecetas.com/wp-content/uploads/2022/09/pollo-asado-e1685644397211.jpg"
+  },
+  {
+    "codigo": "002",
+    "nombre": "Hamburguesa de Pollo",
+    "cantidad": 5,
+    "imagen": "https://www.recetasnestle.com.ec/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/e57f9f44da64745be125344c17cea95b.jpg?itok=JjsSL-uw"
+  }
+
+]

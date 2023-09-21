@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/pagoOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/pagoEfectivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pago en efectivo"/>
+
+        <RadioButton
+            android:id="@+id/pagoTarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pago con tarjeta"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/tarjetaInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/numeroTarjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de tarjeta"
+            android:inputType="number"/>
+
+        <!-- Puedes agregar más campos para fecha de vencimiento, CVV, etc. -->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonConfirmarPago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar pago"/>
+
+</LinearLayout>
